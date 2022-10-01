@@ -1,0 +1,17 @@
+name: python_package_env
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=3.10
+    - jupyter
+    - pip
+    - numpy
+    - pandas
+    - matplotlib
+    - bokeh
+    - plotly
+    - seaborn
+    - panel
+    - dash
