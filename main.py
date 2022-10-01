@@ -2,4 +2,4 @@
 
 import mypackage
 
-print(dir(mypackage))
+print(help(mypackage))
