@@ -1,26 +1,26 @@
-#mymodule.py inside mypackage
+"""mymodule.py inside mypackage"""
 
-def myfunction(x,y,z=[]):
+def myfunction(var_x: int,var_y: float,var_z: list|None=None):
     """First function inside mypackage.mymodule
     -----
     Desc:
-        pre-prends list "z" with product of "x" and "y"
+        pre-prends list "var_z" with product of "var_x" and "var_y"
     -----
     Args:
-        x:int: integer input called "x"
-        y:float: float input called "y"
-        z:list: list input called "z"
+        var_x: integer input called "var_x"
+        var_y: float input called "var_y"
+        var_z: list input called "var_z"
     -----
     Returns:
         list [x * y] + z
     -----
     Usage:
-        extendedlist = myfunction(x=1, y=4.2, z=[20,30,40])
+        extendedlist = myfunction(var_x=1, var_y=4.2, var_z=[20,30,40])
         print(extendedlist)
     """
-    return [x * y] + z
+    return [var_x * var_y] + var_z
 
-def myfunction2(str_text):
+def myfunction2(str_text:str):
     """Second function inside mypackage.mymodule
     -----
     Desc:
